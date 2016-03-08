@@ -1,0 +1,34 @@
+{
+  "name": "hexo-html-min-beautify",
+  "version": "0.0.1",
+  "description": "Minify and beautify Hexo generated HTML files, using html-minifier and js-beautify.",
+  "main": "index",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {},
+  "bugs": "https://github.com/Crimx/hexo-html-min-beautify/issues",
+  "homepage": "ttps://github.com/Crimx/hexo-html-min-beautify/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Crimx/hexo-html-min-beautify/.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-plugin",
+    "hexo-filter",
+    "beautify",
+    "beautifier",
+    "minify",
+    "minifier",
+    "code-quality",
+    "html"
+  ],
+  "author": "Jack Wong <straybugs@gmail.com> (http://crimx.com)",
+  "license": "MIT",
+  "dependencies": {
+    "html-minifier": "^1.2.0",
+    "js-beautify": "^1.6.2",
+    "minimatch": "^3.0.0"
+  }
+}
